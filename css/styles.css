@@ -103,6 +103,10 @@ h2 {
     background-color: white;
 }
 
+.field-box:hover {
+    background-color: rgba(135, 206, 250, 0.213);
+}
+
 .field-flex {
     display: flex;
 }
@@ -145,7 +149,42 @@ h3 {
 }
 
 .middle-container {
-    margin: 2rem auto 0;
+    margin: 3rem auto;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offerings {
+    display: flex;
+    flex-direction: column;
+}
+
+.offerings a {
+    text-align: left;
+    color: black;
+    margin-bottom: .5rem;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    list-style: none;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+.list-item a {
+    color: black;
+}
+
+.bottom-container {
+    margin: 3rem auto;
 }
 
 footer {
@@ -163,7 +202,6 @@ footer {
     flex-direction: column;
     height: 15vh;
     width: 15vw;
-
     justify-content: space-evenly;
 }
 
