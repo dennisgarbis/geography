@@ -90,13 +90,17 @@ h2 {
 .top-container {
     margin: 5rem auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .field-box {
-    border: thin solid black;
-    width: 30%;
-    background-color: lightcyan;
+    width: 25rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px #000;
+    background-color: white;
 }
 
 .field-flex {
@@ -104,10 +108,12 @@ h2 {
 }
 
 .image-flex {
+    margin: 10px;
     width: 30%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: space-around;
+
 }
 
 .field-text {
@@ -125,7 +131,7 @@ h3 {
 .field-p {
     text-align: left;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
 }
 
 .parallax-image {
