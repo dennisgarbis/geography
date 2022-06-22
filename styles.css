@@ -112,4 +112,15 @@ footer {
         margin-right: .5rem;
     }
 
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        width: 85%
+    };
 }
