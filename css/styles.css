@@ -275,6 +275,20 @@ footer {
         height: 20vh;
     }
 
+    footer {
+        justify-content: space-between;
+    }
+
+    .social-media {
+        width: 30vw;
+    }
+
+    .social-media img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
     .courses {
         flex-direction: column;
     }
@@ -290,17 +304,8 @@ footer {
     h3 {
         font-size: 1.2rem;
     }
-
     footer {
         justify-content: space-between;
         font-size: .8rem;
-    }
-
-    .social-media {
-        width: 30vw;
-    }
-
-    .social-media img {
-        width: 80%;
     }
 }
