@@ -102,6 +102,7 @@ h2 {
 .gis-cert {
     margin-bottom: 2rem;
 }
+
 .intro-p {
     width: 40%;
     margin: 0 auto 1.5rem;
@@ -258,6 +259,12 @@ h3 {
 
 .list-item a {
     color: black;
+}
+
+.list-complete {
+    list-style-type: decimal;
+    text-align: left;
+    padding: .5rem;
 }
 
 .bottom-container {
