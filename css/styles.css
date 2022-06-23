@@ -72,7 +72,7 @@ h1 {
     margin-top: 20vh;
     width: fit-content;
     color: white;
-    background-color: rgba(128, 128, 128, 0.029);
+    background-color: rgba(128, 128, 128, 0.010);
 }
 
 h2 {
@@ -197,6 +197,11 @@ h3 {
     margin: 3rem auto;
 }
 
+.news-links {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 footer {
     background-color: #003366;
     color: #fff;
@@ -241,7 +246,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
 
+.social-media h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-top: 0rem;
 }
 
 .social-media img {
@@ -328,12 +338,8 @@ footer {
         margin: 2rem auto;
     }
 
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    h4 {
-        font-size: 1rem;
+    .news-links {
+        width: 85%;
     }
 
     footer {
@@ -350,6 +356,10 @@ footer {
 
     .social-media {
         width: 30vw;
+    }
+
+    .social-media h2 {
+        font-size: 1.2rem;
     }
 
     .social-media img {
