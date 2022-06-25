@@ -160,11 +160,11 @@ h2 {
     transition: .5s ease-in-out;
 }
 
-/* remove below if you don't like */
+/* remove below if you don't like
 .field-image img:hover {
     transform: scale(1.4);
     border-radius: 10px;
-}
+} */
 
 h4 {
     font-weight: 600;
