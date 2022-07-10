@@ -142,6 +142,18 @@ h2 {
     display: flex;
 }
 
+
+.field-gallery img {
+    margin: 10px;
+    padding: 10px;
+}
+/*  CANNOT FIGURE OUT HOW TO ADD SPACE IN BETWEEN VIDEOS */
+.video {
+
+    margin: 10px;
+
+}
+
 .image-flex {
     margin: 10px;
     width: 30%;
