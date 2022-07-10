@@ -99,30 +99,68 @@ h1 {
 h2 {
     width: fit-content;
     font-size: 2rem;
-    padding-top: 1.5rem;
-    margin: 0rem auto .2rem;
+    margin: 1rem auto 3rem;
     font-weight: 600;
 }
 
 .gis-cert {
-    margin-bottom: 2rem;
+    margin: 2rem auto;
 }
 
 .intro-p {
     width: 40%;
     margin: 0 auto 1.5rem;
-    padding-top: 1.2rem;
     text-align: left;
 }
 
 .top-container {
-    margin: 5rem auto;
+    padding: 2rem 0;
 }
 
 .top-container-flex {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.top-container-flex-drone {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.youtube-vid {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.youtube-vid iframe {
+    width: 35rem;
+    height: 20rem;
+}
+
+.drone-flex-p {
+    text-align: left;
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.drone-flex-p img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.drone-flex-p p {
+    width: 85%;
+    margin: 0 auto;
 }
 
 .field-box {
@@ -134,12 +172,17 @@ h2 {
     background-color: white;
 }
 
+.middle-container .field-box {
+    width: 40rem;
+}
+
 .field-box:hover {
     background-color: #007aaa20;
 }
 
 .field-flex {
     display: flex;
+    height: 100%;
 }
 
 
@@ -162,9 +205,12 @@ h2 {
     justify-content: space-around;
 }
 
+.middle-container .image-flex {
+    width: 20%;
+}
+
 .field-text {
-    width: 70%;
-    margin: 0 5px;
+    width: 100%;
 }
 
 .field-image img {
@@ -223,9 +269,9 @@ h3 {
 }
 
 .field-p {
-    text-align: justify;
+    text-align: left;
     width: 90%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
 }
 
 .parallax {
@@ -309,7 +355,7 @@ h3 {
 }
 
 .bottom-container {
-    margin: 3rem auto;
+    padding: 3rem 0;
 }
 
 .news-links {
@@ -413,7 +459,7 @@ p:first-letter {
     font-weight: 600;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     header {
         height: 30vh;
     }
@@ -447,6 +493,17 @@ p:first-letter {
         width: 85%
     }
 
+    .top-container-flex-drone {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .youtube-vid iframe {
+        width: 26.25rem;
+        height: 14.76rem;
+    }
+
     .parallax-image {
         height: 20vh;
     }
@@ -470,12 +527,31 @@ p:first-letter {
 }
 
 @media screen and (max-width: 700px) {
-    .field-box {
+    .field-box, .middle-container .field-box {
         width: 90%;
     }
 
     .middle-container {
         padding: 2rem 0;
+    }
+
+    .middle-container .image-flex {
+        width: 30%;
+    }
+
+
+    .top-container-flex-drone {
+        width: 100%;
+    }
+
+    .youtube-vid iframe {
+        width: 21rem;
+        height: 11.8rem;
+    }
+
+    .drone-flex-p p {
+        width: 85%;
+        margin: 0 auto;
     }
 
     .courses {
