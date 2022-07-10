@@ -13,7 +13,10 @@
     padding: 1rem 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #003366;
 }
 
@@ -190,12 +193,27 @@ figcaption {
     margin: 10px;
     padding: 10px;
 }
+
 /*  CANNOT FIGURE OUT HOW TO ADD SPACE IN BETWEEN VIDEOS */
-.video {
+/* .video {
 
     margin: 10px;
 
+} */
+
+.middle-container .youtube-vid {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
 }
+
+.middle-container .youtube-vid iframe {
+    width: 30rem;
+    height: 16rem;
+    margin: 2rem auto;
+}
+
+.middle-container .youtube-vid iframe {}
 
 .image-flex {
     margin: 10px;
@@ -504,6 +522,11 @@ p:first-letter {
         height: 14.76rem;
     }
 
+    .middle-container .youtube-vid {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .parallax-image {
         height: 20vh;
     }
@@ -527,7 +550,9 @@ p:first-letter {
 }
 
 @media screen and (max-width: 700px) {
-    .field-box, .middle-container .field-box {
+
+    .field-box,
+    .middle-container .field-box {
         width: 90%;
     }
 
@@ -544,7 +569,7 @@ p:first-letter {
         width: 100%;
     }
 
-    .youtube-vid iframe {
+    .youtube-vid iframe, .middle-container .youtube-vid iframe {
         width: 21rem;
         height: 11.8rem;
     }
