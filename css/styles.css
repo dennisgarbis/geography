@@ -74,7 +74,7 @@ h4 {
 }
 
 .faculty-hero {
-    background-image: url('../images/harper-campus2.jpg')
+    background-image: url('../images/harper2.jpg')
 }
 
 .gallery-hero {
@@ -93,10 +93,11 @@ header {
 
 h1 {
     font-size: 4rem;
-    margin-top: 20vh;
+    margin-top: 15vh;
     width: fit-content;
     color: white;
-    background-color: rgba(128, 128, 128, 0.010);
+    background-color: rgba(0, 0, 0, 0.599);
+    padding: 2rem;
 }
 
 h2 {
@@ -319,8 +320,24 @@ h3 {
     background-repeat: no-repeat;
     justify-content: center;
 }
+.parallax-head {
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
 
-.home-parallax {
+.h1-test {
+    margin: 15vh auto;
+}
+
+/* .home-parallax {
+    background-image: url('../images/world-map2.jpg');
+} */
+.home-parallax-head {
     background-image: url('../images/world-map2.jpg');
 }
 
@@ -406,6 +423,9 @@ footer {
     text-align: center;
 }
 
+footer h2 {
+}
+
 .foot-wrap {
     display: flex;
     align-items: center;
@@ -448,10 +468,11 @@ footer {
 }
 
 .social-media h2 {
-    font-size: 1.4rem;
+    color: white;
+    font-size: 1.3rem;
     font-weight: 300;
     padding-top: 0rem;
-    margin-bottom: 10px;
+    margin: 5px auto;
 }
 
 .social-media img {
@@ -519,6 +540,7 @@ p:first-letter {
     h1 {
         font-size: 2.5rem;
         margin-top: 10vh;
+        padding: 1rem;
     }
 
     h2 {
@@ -572,7 +594,11 @@ p:first-letter {
 }
 
 @media screen and (max-width: 700px) {
-
+    h1 {
+        font-size: 1.9rem;
+        margin-top: 10vh;
+        padding: .7rem;
+    }
     .field-box,
     .middle-container .field-box {
         width: 90%;
