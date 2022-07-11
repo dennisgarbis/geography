@@ -166,6 +166,19 @@ figcaption {
     margin: 0 auto;
 }
 
+.logo-box {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: thin solid black;
+}
+
+.logo-box img {
+    margin: 2rem auto;
+    width: 10rem;
+}
+
 .field-box {
     width: 28rem;
     margin: 1rem;
@@ -212,8 +225,6 @@ figcaption {
     height: 16rem;
     margin: 2rem auto;
 }
-
-.middle-container .youtube-vid iframe {}
 
 .image-flex {
     margin: 10px;
@@ -527,6 +538,10 @@ p:first-letter {
         width: 100%;
     }
 
+    .logo-box {
+        width: 50%;
+    }
+
     .parallax-image {
         height: 20vh;
     }
@@ -564,7 +579,6 @@ p:first-letter {
         width: 30%;
     }
 
-
     .top-container-flex-drone {
         width: 100%;
     }
@@ -577,6 +591,19 @@ p:first-letter {
     .drone-flex-p p {
         width: 85%;
         margin: 0 auto;
+    }
+
+    figcaption {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .logo-box {
+        width: 80%;
+    }
+
+    .logo-box img {
+        margin: .5rem auto;
     }
 
     .courses {
