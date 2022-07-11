@@ -334,9 +334,10 @@ h3 {
     margin: 15vh auto;
 }
 
-/* .home-parallax {
+.home-parallax {
     background-image: url('../images/world-map2.jpg');
-} */
+}
+
 .home-parallax-head {
     background-image: url('../images/world-map2.jpg');
 }
