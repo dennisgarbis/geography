@@ -320,6 +320,7 @@ h3 {
     background-repeat: no-repeat;
     justify-content: center;
 }
+
 .parallax-head {
     background-position: center;
     width: 100%;
@@ -375,18 +376,6 @@ h3 {
     margin-bottom: .5rem;
 }
 
-.job-image {
-    width: 20%;
-    margin: 1rem;
-}
-
-.job-image img {
-    width: 100%;
-    height: 80%;
-    margin-top: 5vh;
-    border-radius: 20%;
-}
-
 .course-list {
     display: flex;
     flex-direction: column;
@@ -424,8 +413,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
-}
+footer h2 {}
 
 .foot-wrap {
     display: flex;
@@ -600,6 +588,7 @@ p:first-letter {
         margin-top: 10vh;
         padding: .7rem;
     }
+
     .field-box,
     .middle-container .field-box {
         width: 90%;
