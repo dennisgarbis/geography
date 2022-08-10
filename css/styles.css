@@ -381,6 +381,28 @@ h3 {
     flex-direction: column;
 }
 
+/* table styling - linda */
+
+table {
+    border: 2px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: justify;
+    padding: 7px;
+}
+
+tr:nth-child(even) {
+    background-color: white
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
 .list-item {
     list-style: none;
     text-align: left;
