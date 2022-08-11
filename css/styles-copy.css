@@ -1,0 +1,709 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    line-height: 1.4;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: #003366;
+    padding: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #003366;
+}
+
+#logo {
+    width: 20%;
+}
+
+#logo>a>img {
+    /* width: 80%; */
+    /*removed width on image made it look clearer*/
+    vertical-align: top;
+}
+
+#navbarcontent {
+    width: 100%;
+}
+
+#navbarContent a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+#navbarContent a:hover {
+    background-color: #0079aa;
+}
+
+#navbarContent #active {
+    text-decoration: underline white 2px;
+    text-underline-offset: 3px;
+    cursor: default;
+}
+
+#navbarContent #active:hover {
+    color: white;
+    background-color: rgba(128, 128, 128, 0);
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.gis-hero {
+    background-image: url('../images/satellite.jpg')
+}
+
+.drone-hero {
+    background-image: url('../images/drone-back.jpg')
+}
+
+.faculty-hero {
+    background-image: url('../images/harper2.jpg')
+}
+
+.gallery-hero {
+    background-image: url('../images/drone-ice.jpg')
+}
+
+header {
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 15vh;
+    width: fit-content;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.599);
+    padding: 2rem;
+}
+
+h2 {
+    width: fit-content;
+    font-size: 2rem;
+    margin: 1rem auto 3rem;
+    font-weight: 600;
+}
+
+.gis-cert {
+    margin: 0rem auto 2rem;
+}
+
+.intro-p {
+    width: 40%;
+    margin: 0 auto 1.5rem;
+    text-align: left;
+}
+
+.top-container {
+    padding: 2rem 0;
+}
+
+.top-container-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.top-container-flex-drone {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.youtube-vid {
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.youtube-vid iframe {
+    width: 35rem;
+    height: 20rem;
+}
+
+.drone-flex-p {
+    text-align: left;
+    width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.drone-flex-p img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.drone-flex-p p {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    padding: 2rem 0;
+}
+
+.logo-box {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    box-shadow: 2px 2px 10px #000;
+}
+
+.logo-box img {
+    margin: 2rem auto;
+    width: 10rem;
+}
+
+.field-box {
+    width: 28rem;
+    margin: 1rem;
+    display: flex;
+    box-shadow: 2px 2px 10px #000;
+    background-color: white;
+}
+
+.middle-container .field-box {
+    width: 40rem;
+}
+
+.field-box:hover {
+    background-color: #007aaa20;
+}
+
+.field-flex {
+    display: flex;
+    height: 100%;
+}
+
+.field-gallery img {
+    margin: 10px;
+    padding: 10px;
+}
+
+/*  CANNOT FIGURE OUT HOW TO ADD SPACE IN BETWEEN VIDEOS */
+/* .video {
+
+    margin: 10px;
+
+} */
+
+.middle-container .youtube-vid {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle-container .youtube-vid iframe {
+    width: 30rem;
+    height: 16rem;
+    margin: 2rem auto;
+}
+
+.image-flex {
+    margin: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.middle-container .image-flex {
+    width: 20%;
+}
+
+.field-text {
+    width: 100%;
+}
+
+.field-image {
+    width: 40%;
+    margin: 1rem .2rem;
+}
+
+.field-image img {
+    width: 100%;
+}
+
+/* remove below if you don't like
+.field-image img:hover {
+    transform: scale(1.4);
+    border-radius: 10px;
+} */
+
+h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.course-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.course-box {
+    width: 35rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px #000;
+    background-color: white;
+}
+
+.course-box ul {
+    list-style: none;
+}
+
+.course-box li {
+    text-align: left;
+}
+
+.drone-cert {
+    padding: 2rem 0;
+}
+
+.main-hours {
+    color: darkred;
+    font-size: .8em;
+}
+
+.credit-hours {
+    color: darkred;
+    font-size: .9em;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 1rem auto;
+    font-weight: 600;
+}
+
+.field-p {
+    text-align: left;
+    width: 90%;
+    margin: 1rem;
+}
+
+.parallax {
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.parallax-head {
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.h1-test {
+    margin: 15vh auto;
+}
+
+.home-parallax {
+    background-image: url('../images/world-map2.jpg');
+}
+
+
+.gis-parallax {
+    background-image: url('../images/space-satellite.jpg');
+}
+
+.drone-parallax {
+    background-image: url('../images/drone-table.jpg');
+}
+
+.middle-container {
+    padding: 4rem 0;
+    background-color: #007aaa20;
+}
+
+.courses {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.offerings {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.offerings a {
+    text-align: left;
+    color: black;
+    margin: 0 auto;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* table styling - linda */
+
+.field-box > table {
+    border: 2px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: justify;
+    padding: 7px;
+}
+
+tr:nth-child(even) {
+    background-color: white
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+.list-item {
+    list-style: none;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+.list-item a {
+    color: black;
+}
+
+.list-complete {
+    list-style-type: decimal;
+    text-align: left;
+    padding: .5rem;
+}
+
+.bottom-container {
+    padding: 3rem 0;
+}
+
+.news-links {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 1.2rem 0;
+    text-align: center;
+}
+
+footer h2 {}
+
+.foot-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: space-evenly;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 0.2em;
+    /*maybe padding for links? */
+}
+
+.contact-links a:hover {
+    background-color: #0079aa;
+    /* text-decoration: 2px underline red;
+    text-underline-offset: 4px; */
+}
+
+.social-media {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social-media h2 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-top: 0rem;
+    margin: 5px auto;
+}
+
+.social-media img {
+    width: 75%;
+}
+
+.social-media a:hover {
+    transform: scale(1.3);
+}
+
+.copy-info {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.team {
+    font-weight: 600;
+    color: #003366;
+}
+
+.email {
+    text-decoration: none;
+    font-weight: 600;
+    color: #003366;
+}
+
+.email-foot {
+    color: white;
+    text-decoration: none;
+}
+
+.team:first-letter {
+    font-size: 2rem;
+}
+
+p:first-letter {
+    font-size: 2rem;
+    line-height: 1.2rem;
+    color: #003366;
+    font-family: calligraph;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) {
+    header {
+        height: 30vh;
+    }
+
+    .home-parallax {
+        height: 30vh;
+    }
+
+    .h1-test {
+        margin: 10vh auto;
+    }
+
+    #logo {
+        margin-left: 2%;
+    }
+
+    /* #logo>a>img {
+        width: 35vw;
+        vertical-align: top;
+        padding: 1px;
+    } */
+
+    #hamburger {
+        background-color: white;
+        padding: .2rem;
+        margin-right: .5rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 10vh;
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .intro-p {
+        width: 85%
+    }
+
+    .top-container-flex-drone {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .youtube-vid iframe {
+        width: 26.25rem;
+        height: 14.76rem;
+    }
+
+    .middle-container .youtube-vid {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo-box {
+        width: 25rem;
+    }
+
+    .parallax-image {
+        height: 20vh;
+    }
+
+    .courses {
+        width: 100%;
+    }
+
+
+    footer {
+        justify-content: space-between;
+    }
+
+    .social-media {
+        width: 20vw;
+    }
+
+    .social-media img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 1.9rem;
+        margin-top: 10vh;
+        padding: .7rem;
+    }
+
+    .field-box,
+    .middle-container .field-box {
+        width: 90%;
+    }
+
+    .middle-container {
+        padding: 2rem 0;
+    }
+
+    .middle-container .image-flex {
+        width: 30%;
+    }
+
+    .top-container-flex-drone {
+        width: 100%;
+    }
+
+    .youtube-vid iframe, .middle-container .youtube-vid iframe {
+        width: 21rem;
+        height: 11.8rem;
+    }
+
+    .drone-flex-p p {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    figcaption {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .logo-box {
+        width: 80%;
+    }
+
+    .logo-box img {
+        margin: .5rem auto;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+    .outlines {
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    .offerings {
+        margin: 2rem auto;
+    }
+
+    .job-image {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .job-image img {
+        height: 70%;
+        margin: 0;
+        border-radius: 10%;
+    }
+
+    .news-links {
+        width: 85%;
+    }
+
+    footer {
+        font-size: .9rem;
+    }
+
+    .foot-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .social-media {
+        width: 30vw;
+    }
+
+    .social-media h2 {
+        font-size: 1.2rem;
+    }
+
+    .social-media img {
+        width: 70%;
+    }
+}
