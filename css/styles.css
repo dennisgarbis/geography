@@ -61,10 +61,6 @@ h4 {
     justify-content: space-evenly;
 }
 
-.home-hero {
-    background-image: url('../images/geography.jpg')
-}
-
 .gis-hero {
     background-image: url('../images/satellite.jpg')
 }
@@ -339,9 +335,6 @@ h3 {
     background-image: url('../images/world-map2.jpg');
 }
 
-.home-parallax-head {
-    background-image: url('../images/world-map2.jpg');
-}
 
 .gis-parallax {
     background-image: url('../images/space-satellite.jpg');
@@ -530,6 +523,14 @@ p:first-letter {
 @media screen and (max-width: 1100px) {
     header {
         height: 30vh;
+    }
+
+    .home-parallax {
+        height: 30vh;
+    }
+
+    .h1-test {
+        margin: 10vh auto;
     }
 
     #logo {
