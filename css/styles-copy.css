@@ -123,6 +123,10 @@ h2 {
     flex-wrap: wrap;
 }
 
+.top-container-flex:first-of-type {
+    width: 100%;
+}
+
 .top-container-flex-drone {
     display: flex;
     margin: 0 auto;
@@ -181,11 +185,15 @@ figcaption {
 }
 
 .field-box {
-    width: 28rem;
+    width: 50rem;
     margin: 1rem;
     display: flex;
     box-shadow: 2px 2px 10px #000;
     background-color: white;
+}
+
+.field-box:first-of-type {
+    width: 80%;
 }
 
 .middle-container .field-box {
@@ -242,7 +250,7 @@ figcaption {
 }
 
 .field-image {
-    width: 40%;
+    width: 20%;
     margin: 1rem .2rem;
 }
 
