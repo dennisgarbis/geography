@@ -378,6 +378,8 @@ h3 {
     text-align: left;
     color: black;
     margin: 0 auto;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .course-list {
