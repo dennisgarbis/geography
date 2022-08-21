@@ -321,7 +321,7 @@ h3 {
 .parallax {
     background-position: center;
     width: 100%;
-    height: 35vh;
+    height:30vh;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -574,6 +574,14 @@ p:first-letter {
 
     .intro-p {
         width: 85%
+    }
+
+    hr {
+        color:#003366;
+        border-width: 0;
+        background-color: #003366;
+        width: 50%;
+        height: 5px;
     }
 
     .top-container-flex-drone {
