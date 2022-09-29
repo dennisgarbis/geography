@@ -125,13 +125,14 @@ h2 {
     justify-content: space-evenly;
     margin: auto;
     margin-bottom: 30px;
+
 }
 
 li {
     text-align: left;
     list-style: none;
-   
-   
+
+
 }
 
 
@@ -848,4 +849,16 @@ p:first-letter {
     .social-media img {
         width: 70%;
     }
+
+    .listCol {
+        flex-direction: column;
+       width:50%;
+      
+
+    }
+
+
+
+
+
 }
