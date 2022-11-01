@@ -83,7 +83,7 @@ h4 {
 }
 
 .gallery-hero {
-    background-image: url('../images/drone-ice.jpg')
+    background-image: url('../images/Harper_Drone_Image_NW.jpg')
 }
 
 header {
@@ -107,10 +107,18 @@ h1:not(#exampleModalLabel, #exampleModal2Label, #exampleModal2Label, #exampleMod
 }
 
 /* HOW CAN I CENTER THE H1 IN THE MODALS? */
-.modal-title fs-5  {
+.modal-title fs-5 {
     text-align: center;
-   
+
 }
+
+/* added styling to scss */
+.carousel-caption {
+    font-size: 1.5rem;
+    background-color: rgba(0, 51, 102, 0.50);
+ 
+}
+
 
 
 
@@ -553,7 +561,7 @@ footer h2 {}
     font-size: 2rem;
 }
 
-p:first-letter {
+p:first-letter :not(.carousel-caption) {
     font-size: 2rem;
     line-height: 1.2rem;
     color: #003366;
