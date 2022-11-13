@@ -149,7 +149,7 @@ h2 {
 }
 
 .gis-cert {
-    margin: 0rem auto 2rem;
+    margin: 3rem auto 2rem;
 }
 
 .intro-p {
@@ -174,14 +174,17 @@ li {
 
 
 
+
 .top-container {
     padding: 2rem 0;
+    
 }
 
 .top-container-flex {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .top-container-flex-drone {
@@ -213,6 +216,14 @@ li {
     width: 20%;
     margin: 0 auto;
 }
+
+.icons
+ {
+    height: 40px;
+    width: 40px;
+  
+   }
+
 
 figcaption {
     /* font-size: .9rem; */
@@ -253,12 +264,8 @@ figcaption {
 }
 
 .careers .field-box {
-
     width:auto;
-
 }
-
-
 
 /* changed from 40 to 28rem */
 .middle-container .field-box {
@@ -317,7 +324,6 @@ figcaption {
 
 
 
-
 /* 
 .faculty .image-flex {
 
@@ -325,11 +331,11 @@ figcaption {
 
 } */
 
-/* remove below if you don't like
+
 .field-image img:hover {
-    transform: scale(1.4);
-    border-radius: 10px;
-} */
+    transform: scale(1.5);
+    border-radius: 5px;
+}
 
 h4 {
     font-weight: 600;
