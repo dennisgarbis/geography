@@ -3,21 +3,21 @@
     margin: 0%;
     padding: 0;
     line-height: 1.4;
-    text-align: center; 
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 
 
 body {
-     /* 
+    /* 
   Fluid typography
   Viewport range is 300px - 1600px wide
   Font size will auto resize from 12px (minimum) to 18px (maximum)
   NOTE: Do not change 100vw. This is a constant in the formula
 */
-  font-size: calc(12px + (18 - 12) * (100vw - 300px) / (1600 - 300));
+    font-size: calc(12px + (18 - 12) * (100vw - 300px) / (1600 - 300));
 }
 
 
@@ -135,7 +135,7 @@ h1:not(#exampleModalLabel, #exampleModal2Label, #exampleModal2Label, #exampleMod
 .carousel-caption {
     /* font-size: 1.5rem; */
     background-color: rgba(0, 51, 102, 0.50);
- 
+
 }
 
 
@@ -177,7 +177,7 @@ li {
 
 .top-container {
     padding: 2rem 0;
-    
+
 }
 
 .top-container-flex {
@@ -217,12 +217,11 @@ li {
     margin: 0 auto;
 }
 
-.icons
- {
+.icons {
     height: 50px;
     width: 50px;
-  
-   }
+
+}
 
 
 figcaption {
@@ -254,7 +253,9 @@ figcaption {
 
 
 .field-box {
-    width: 28rem;
+    /* width: 28rem; */
+    width: 40vw;
+    /* min-width: 448px; */
     margin: 1rem;
     padding: 1rem;
     display: flex;
@@ -264,7 +265,7 @@ figcaption {
 }
 
 .careers .field-box {
-    width:auto;
+    width: auto;
 }
 
 /* changed from 40 to 28rem */
@@ -280,6 +281,7 @@ figcaption {
     display: flex;
     height: 100%;
 }
+
 .careers .field-flex {
     flex-basis: 50%;
 }
@@ -451,7 +453,7 @@ h3 {
 .offerings {
     display: flex;
     flex-direction: column;
-    margin: 0 1rem;
+    margin: 0 auto;
 }
 
 .offerings a {
@@ -823,20 +825,34 @@ p:first-letter :not(.carousel-caption) {
         list-style: none;
     }
 
-    .faculty li, 
+    .faculty li,
     .careers li {
-        text-align:left;
+        text-align: left;
     }
+
     .careers .field-box {
 
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
 
-.careers .field-flex {
-    flex-basis: 100%;
-    height: auto;
-   
+    .careers .field-flex {
+        flex-basis: 100%;
+        height: auto;
+
+    }
 }
 
-}
+/* @media screen and (max-width: 320px) {
+
+    .field-box {
+        min-width: 320px;
+
+    }
+
+    .image-flex {
+
+       width: 75px;
+    }
+
+} */
