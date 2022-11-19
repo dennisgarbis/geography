@@ -89,9 +89,15 @@ h1 {
     background-image: url('../images/satellite.jpg')
 }
 
+
 .drone-hero {
-    background-image: url('../images/drone-back.jpg')
+    background-image: url('../images/Drone_Page/Busse_Woods.jpg')
 }
+
+/* .drone-hero {
+    background-image: url('../images/drone-back.jpg')
+} */
+
 
 .faculty-hero {
     background-image: url('../images/harper2.jpg')
@@ -213,8 +219,8 @@ li {
 }
 
 .drone-flex-p img {
-    width: 30%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 0, auto;
 }
 
 .icons {
@@ -232,6 +238,13 @@ figcaption {
 .drone-flex-p p {
     width: 85%;
     margin: 0 auto;
+}
+
+.drone-list li {
+     font-weight: bold;
+    text-align: center;
+   
+
 }
 
 .logo-container {
@@ -369,6 +382,8 @@ h4 {
 .course-box li {
     text-align: left;
 }
+
+
 
 .drone-cert {
     padding: 2rem 0;
